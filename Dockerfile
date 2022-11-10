@@ -10,7 +10,6 @@ RUN apt-get install -y --no-install-recommends\
                     git \
                     curl \
 		    check \
-		    jansson \
 		    libjansson-dev \
                     libcurl4 \
                     gcc-9 \
