@@ -19,9 +19,13 @@ RUN apt-get install -y --no-install-recommends\
                     cmake \
                     unzip \
                     tar \
+		    libgmock-dev \
+                    libgtest-dev \
                     ca-certificates && \
     apt-get autoclean && \
     apt-get autoremove && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/*
+
+WORKDIR /root
 
